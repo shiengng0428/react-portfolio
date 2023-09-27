@@ -37,7 +37,7 @@ export const NavBar = () => {
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="https://shiengng0428.github.io/react-portfolio/#projects">
             <img src={logo} alt="Logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
@@ -52,9 +52,8 @@ export const NavBar = () => {
             <span className="navbar-text">
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/shi-eng-ng-749a281bb/"><img src={navIcon1} alt="" /></a>
-                <a href="#"><img src={navIcon2} alt=""  class="bigger-icon"/></a>
+                <a href="https://github.com/shiengng0428"><img src={navIcon2} alt=""  class="bigger-icon"/></a>
                 <a href="https://instagram.com/shiengng123?igshid=OGQ5ZDc2ODk2ZA=="><img src={navIcon3} alt="" /></a>
-                <a href="#"><img src={navIcon4} alt="" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
