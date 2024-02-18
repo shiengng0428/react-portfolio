@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Backend Developer", "Software Engineer", "Data Analyst"];
+  const toRotate = ["Backend Developer", "Software Engineer", "Data Analyst",];
   const period = 2000;
 
   useEffect(() => {
@@ -57,13 +57,20 @@ export const Banner = () => {
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">Welcome to my Portfolio</span>
 
-                  <h1>{`Hi! I'm Shi Eng`}</h1>
+                  <h1>{`Hi! I'm Ng Shi Eng`}</h1>
+                  <h5>{`I'm Fresh Graduate/Entry Level Software Engineer from Malaysia`}</h5>
+                  <br></br>
+                  <br></br>
 
-                  <h1>{ } <span className="txt-rotate" dataPeriod="100000000000" data-rotate='[ "Backend Developer", "Software Engineer", "Data Analyst" ]'><span className="wrap">{text}</span></span></h1>
+                  <h1>{ } <span className="txt-rotate" dataPeriod="100000000000" data-rotate='[ "Software Engineer", "Backend Developer", "Data Analyst" ]'><span className="wrap">{text}</span></span></h1>
 
-                  <p>Hi, my name is Ng Shi Eng and I am a student at Tunku Abdul Rahman University of Management and Technology (TAR UMT), studying for a Bachelor's degree in Computer Science with a focus on Software Engineering.
-                    As a newbie in this field, I am eager to gain experiences and further my knowledge in technology and software development. I am known among my friends and peers as a good listener and caring person, and I believe in being supportive and empathetic towards those around me. I am excited to be part of this community and hope to make valuable contributions through my studies and interactions with others. I am a dedicated and hardworking individual, always willing to learn and improve.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <p>
+                    I'm a fresh graduate software engineer with a passion for building robust online solutions. With expertise in Node.js, JavaScript, MySQL, APIs, Nest.js, and more, I thrive on turning concepts into reliable and efficient web applications. Let's collaborate and create something remarkable!
+                  </p>
+                  <button onClick={() => { window.location.href = 'mailto:shiengng0428@gmail.com'; }}>
+                    Let's Connect <ArrowRightCircle size={25} />
+                  </button>
+
                 </div>}
             </TrackVisibility>
           </Col>
