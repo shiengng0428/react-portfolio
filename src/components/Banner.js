@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Backend Developer", "Software Engineer", "Data Analyst"];
+  const toRotate = ["Backend Developer", "Software Engineer", "Data Analyst",];
   const period = 2000;
 
   useEffect(() => {
@@ -57,14 +57,20 @@ export const Banner = () => {
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">Welcome to my Portfolio</span>
 
-                  <h1>{`Hi! I'm Shi Eng`}</h1>
+                  <h1>{`Hi! I'm Ng Shi Eng`}</h1>
+                  <h5>{`I'm Fresh Graduate/Entry Level Software Engineer from Malaysia`}</h5>
+                  <br></br>
+                  <br></br>
 
-                  <h1>{ } <span className="txt-rotate" dataPeriod="100000000000" data-rotate='[ "Backend Developer", "Software Engineer", "Data Analyst" ]'><span className="wrap">{text}</span></span></h1>
+                  <h1>{ } <span className="txt-rotate" dataPeriod="100000000000" data-rotate='[ "Software Engineer", "Backend Developer", "Data Analyst" ]'><span className="wrap">{text}</span></span></h1>
 
                   <p>
-                    I'm a backend web developer with a passion for building robust online solutions. With expertise in Node.js, JavaScript, MySQL, APIs, Nest.js, and more, I thrive on turning concepts into reliable and efficient web applications. Let's collaborate and create something remarkable!
+                    I'm a fresh graduate software engineer with a passion for building robust online solutions. With expertise in Node.js, JavaScript, MySQL, APIs, Nest.js, and more, I thrive on turning concepts into reliable and efficient web applications. Let's collaborate and create something remarkable!
                   </p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => { window.location.href = 'mailto:shiengng0428@gmail.com'; }}>
+                    Let's Connect <ArrowRightCircle size={25} />
+                  </button>
+
                 </div>}
             </TrackVisibility>
           </Col>

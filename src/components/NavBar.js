@@ -45,18 +45,18 @@ export const NavBar = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
-              <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
+              {/* <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link> */}
+              {/* <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link> */}
               {/* <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link> */}
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/shi-eng-ng-749a281bb/"><img src={navIcon1} alt="" /></a>
-                <a href="https://github.com/shiengng0428"><img src={navIcon2} alt=""  class="bigger-icon"/></a>
-                <a href="https://instagram.com/shiengng123?igshid=OGQ5ZDc2ODk2ZA=="><img src={navIcon3} alt="" /></a>
+                <a href="https://github.com/shiengng0428"><img src={navIcon2} alt="" class="bigger-icon" /></a>
+                <a href="https://www.instagram.com/shieng0428/"><img src={navIcon3} alt="" /></a>
               </div>
-              <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
+              <HashLink to='#connect' onClick={() => { window.location.href = 'mailto:shiengng0428@gmail.com'; }}>
+                <button className="vvd"><span>Let's Connect</span></button>
               </HashLink>
             </span>
           </Navbar.Collapse>
