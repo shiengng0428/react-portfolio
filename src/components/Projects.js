@@ -90,7 +90,7 @@ export const Projects = () => {
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <h2>Projects</h2>
                   <p>
-                    My portfolio includes projects that demonstrate my proficiency in cloud technologies, such as deploying applications on AWS and Azure for scalability and reliability.
+                    My portfolio includes projects that demonstrate my proficiency in development!
                   </p>
                   <p>
                     Can search for personnel projects in <a href="https://github.com/shiengng0428">GitHub</a>.
