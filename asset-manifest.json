@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.57719184.css",
-    "main.js": "/react-portfolio/static/js/main.4c6eaf4a.js",
+    "main.js": "/react-portfolio/static/js/main.44c28032.js",
     "static/js/787.fb771931.chunk.js": "/react-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/background.jpg": "/react-portfolio/static/media/background.202ba7561bbb67dc41d2.jpg",
     "static/media/expenses_trracker.png": "/react-portfolio/static/media/expenses_trracker.1361818cd209b682e1a2.png",
@@ -20,6 +20,7 @@
     "static/media/hacker.png": "/react-portfolio/static/media/hacker.c8fbcffee4f8f96998fb.png",
     "static/media/Ng_Shi_Eng_Logo_ReomveBg.png": "/react-portfolio/static/media/Ng_Shi_Eng_Logo_ReomveBg.346dbc0057e10c50aa5b.png",
     "static/media/contact-img.svg": "/react-portfolio/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
+    "static/media/download.jpeg": "/react-portfolio/static/media/download.8ed7182860ba2cb4281d.jpeg",
     "static/media/revicons.eot": "/react-portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/react-portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/react-portfolio/static/media/revicons.e8746a624ed098489406.woff",
@@ -34,11 +35,11 @@
     "static/media/arrow2.svg": "/react-portfolio/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/react-portfolio/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "main.57719184.css.map": "/react-portfolio/static/css/main.57719184.css.map",
-    "main.4c6eaf4a.js.map": "/react-portfolio/static/js/main.4c6eaf4a.js.map",
+    "main.44c28032.js.map": "/react-portfolio/static/js/main.44c28032.js.map",
     "787.fb771931.chunk.js.map": "/react-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.57719184.css",
-    "static/js/main.4c6eaf4a.js"
+    "static/js/main.44c28032.js"
   ]
 }
